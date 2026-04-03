@@ -1,0 +1,3 @@
+C:/Users/MSI/Desktop/Work/STM_/Course Udemy/0_test/chip_headers/CMSIS/Include/core_cm4.h:1684:22:__NVIC_EnableIRQ	16	static,ignoring_inline_asm
+../Src/ADC_DMA.c:28:6:adc_dma_init	4	static
+../Src/ADC_DMA.c:103:6:adc_tim_dma_init	8	static

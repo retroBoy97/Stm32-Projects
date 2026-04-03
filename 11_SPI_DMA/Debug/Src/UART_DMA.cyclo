@@ -1,0 +1,10 @@
+C:/Users/MSI/Desktop/Work/STM_/Course Udemy/0_test/chip_headers/CMSIS/Include/core_cm4.h:1684:22:__NVIC_EnableIRQ	2
+../Src/UART_DMA.c:52:6:uart2_rx_tx_init	1
+../Src/UART_DMA.c:104:6:DMA1_Init	1
+../Src/UART_DMA.c:112:6:DMA1_Stream5_UART_RX_Config	2
+../Src/UART_DMA.c:157:6:DMA1_Stream6_UART_TX_Config	2
+../Src/UART_DMA.c:195:17:compute_uart_bd	1
+../Src/UART_DMA.c:199:13:uart_set_baudrate	1
+../Src/UART_DMA.c:203:6:DMA1_Stream6_IRQHandler	2
+../Src/UART_DMA.c:212:6:DMA1_Stream5_IRQHandler	2
+../Src/UART_DMA.c:223:6:USART2_IRQHandler	1
