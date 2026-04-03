@@ -1,0 +1,3 @@
+C:/Users/MSI/Desktop/Work/STM_/Course Udemy/0_test/chip_headers/CMSIS/Include/core_cm4.h:1684:22:__NVIC_EnableIRQ	2
+../Src/ADC_DMA.c:28:6:adc_dma_init	2
+../Src/ADC_DMA.c:103:6:adc_tim_dma_init	2

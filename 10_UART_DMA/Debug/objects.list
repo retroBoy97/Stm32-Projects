@@ -1,0 +1,8 @@
+"./Src/ADC_DMA.o"
+"./Src/DMA.o"
+"./Src/UART.o"
+"./Src/UART_DMA.o"
+"./Src/main.o"
+"./Src/syscalls.o"
+"./Src/sysmem.o"
+"./Startup/startup_stm32f401retx.o"
