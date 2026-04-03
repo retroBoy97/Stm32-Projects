@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="hasShownOverlayPopupBefore" value="true"/>
+	<item key="replaceBarOpen" value="true"/>
+	<list key="searchhistory">
+		<item value="SPI_CR1_BR"/>
+		<item value="SPI_CR1_BR_0"/>
+		<item value="SPI_TypeDef"/>
+		<item value="uart_data_buffer"/>
+		<item value="global_rx_complete"/>
+		<item value="CR2_DMA "/>
+		<item value="DMA2_Stream0 -&gt; CR"/>
+		<item value="DMA_SCR_EN"/>
+		<item value="LIFCR_CTCIF0"/>
+		<item value="DMA1_Stream0_IRQ"/>
+		<item value="DMA_Stream_TypeDef"/>
+		<item value="RCC"/>
+		<item value="UART2EN"/>
+		<item value="&amp;"/>
+		<item value="RCC_TypeDef"/>
+	</list>
+</section>

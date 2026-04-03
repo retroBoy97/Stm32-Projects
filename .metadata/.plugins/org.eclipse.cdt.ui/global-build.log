@@ -1,0 +1,49 @@
+20:58:48 **** Incremental Build of configuration Debug for project Blink LED ****
+make -j16 all 
+arm-none-eabi-size  Blink\ LED.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1024	     24	   1568	   2616	    a38	Blink LED.elf
+Finished building: default.size.stdout
+ 
+21:16:27 **** Incremental Build of configuration Debug for project Blink LED ****
+make -j16 all 
+arm-none-eabi-size  Blink\ LED.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1024	     24	   1568	   2616	    a38	Blink LED.elf
+Finished building: default.size.stdout
+ 
+21:19:23 **** Incremental Build of configuration Debug for project Blink LED ****
+make -j16 all 
+arm-none-eabi-size  Blink\ LED.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1024	     24	   1568	   2616	    a38	Blink LED.elf
+Finished building: default.size.stdout
+ 
+21:21:51 **** Incremental Build of configuration Debug for project Blink LED ****
+make -j16 all 
+arm-none-eabi-size  Blink\ LED.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1024	     24	   1568	   2616	    a38	Blink LED.elf
+Finished building: default.size.stdout
+ 
+21:25:40 **** Incremental Build of configuration Debug for project Blink LED ****
+make -j16 all 
+arm-none-eabi-size  Blink\ LED.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1024	     24	   1568	   2616	    a38	Blink LED.elf
+Finished building: default.size.stdout
+ 
+21:27:10 **** Incremental Build of configuration Debug for project Blink LED ****
+make -j16 all 
+arm-none-eabi-size  Blink\ LED.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1024	     24	   1568	   2616	    a38	Blink LED.elf
+Finished building: default.size.stdout
+ 
+21:27:39 **** Incremental Build of configuration Debug for project Blink LED ****
+make -j16 all 
+arm-none-eabi-size  Blink\ LED.elf 
+   text	   data	    bss	    dec	    hex	filename
+   1024	     24	   1568	   2616	    a38	Blink LED.elf
+Finished building: default.size.stdout
+ 

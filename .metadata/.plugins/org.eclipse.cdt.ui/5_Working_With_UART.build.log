@@ -1,0 +1,10 @@
+23:19:50 **** Incremental Build of configuration Debug for project 5_Working_With_UART ****
+make -j16 all 
+arm-none-eabi-size  5_Working_With_UART.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5184	     92	   1900	   7176	   1c08	5_Working_With_UART.elf
+Finished building: default.size.stdout
+ 
+
+23:19:51 Build Finished. 0 errors, 0 warnings. (took 675ms)
+

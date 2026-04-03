@@ -1,0 +1,14 @@
+#include "stm32f4xx.h"
+
+char _a[1] = {'A'};
+char* pa = _a;
+
+int sum;
+
+int main(void){
+
+
+    while(1){
+	ITM_SendChar(*pa);
+    }
+}

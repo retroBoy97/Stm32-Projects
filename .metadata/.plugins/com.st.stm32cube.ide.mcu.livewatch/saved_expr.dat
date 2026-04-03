@@ -1,0 +1,5 @@
+global_rx_complete
+global_uart_complete
+msg_buffer
+uart_data_buffer
+test

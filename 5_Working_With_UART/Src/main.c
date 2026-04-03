@@ -9,6 +9,6 @@ int main(void){
 
     while(1){
 	printf("Hello from main function \n\r");
-	//for(int i=0; i<500000; i++);
+	for(int i=0; i<500000; i++);
     }
 }

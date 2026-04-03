@@ -12,6 +12,6 @@ int main(void){
     }
 
     while(1){
-	///ITM_sendChar(*pt_a);
+	ITM_sendChar(*pt_a);
     }
 }

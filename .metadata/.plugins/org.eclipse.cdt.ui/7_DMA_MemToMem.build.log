@@ -1,0 +1,19 @@
+06:38:53 **** Build of configuration Debug for project 7_DMA_MemToMem ****
+make -j16 all 
+arm-none-eabi-gcc "../Src/DMA.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F401RE -DSTM32 -DSTM32F401RETx -DSTM32F4 -DSTM32F401xE -c -I../Inc -I"C:/Users/MSI/Desktop/Work/STM_/Course Udemy/0_test/chip_headers/CMSIS/Include" -I"C:/Users/MSI/Desktop/Work/STM_/Course Udemy/0_test/chip_headers/CMSIS/Device/ST/STM32F4xx/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/DMA.d" -MT"Src/DMA.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/DMA.o"
+arm-none-eabi-gcc "../Src/UART.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F401RE -DSTM32 -DSTM32F401RETx -DSTM32F4 -DSTM32F401xE -c -I../Inc -I"C:/Users/MSI/Desktop/Work/STM_/Course Udemy/0_test/chip_headers/CMSIS/Include" -I"C:/Users/MSI/Desktop/Work/STM_/Course Udemy/0_test/chip_headers/CMSIS/Device/ST/STM32F4xx/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/UART.d" -MT"Src/UART.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/UART.o"
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F401RE -DSTM32 -DSTM32F401RETx -DSTM32F4 -DSTM32F401xE -c -I../Inc -I"C:/Users/MSI/Desktop/Work/STM_/Course Udemy/0_test/chip_headers/CMSIS/Include" -I"C:/Users/MSI/Desktop/Work/STM_/Course Udemy/0_test/chip_headers/CMSIS/Device/ST/STM32F4xx/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "7_DMA_MemToMem.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\MSI\Desktop\Work\STM_\Course Udemy\7_DMA_MemToMem\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="7_DMA_MemToMem.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 7_DMA_MemToMem.elf
+ 
+arm-none-eabi-size  7_DMA_MemToMem.elf 
+arm-none-eabi-objdump -h -S 7_DMA_MemToMem.elf  > "7_DMA_MemToMem.list"
+   text	   data	    bss	    dec	    hex	filename
+   5648	    104	   1912	   7664	   1df0	7_DMA_MemToMem.elf
+Finished building: default.size.stdout
+ 
+Finished building: 7_DMA_MemToMem.list
+ 
+
+06:38:58 Build Finished. 0 errors, 0 warnings. (took 4s.388ms)
+

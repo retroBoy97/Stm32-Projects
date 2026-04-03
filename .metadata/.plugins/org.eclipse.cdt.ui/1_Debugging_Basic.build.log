@@ -1,0 +1,17 @@
+19:55:51 **** Build of configuration Debug for project 1_Debugging_Basic ****
+make -j16 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F401RE -DSTM32 -DSTM32F401RETx -DSTM32F4 -DSTM32F401xE -c -I../Inc -I"C:/Users/MSI/Desktop/Work/STM_/Course Udemy/0_test/chip_headers/CMSIS/Include" -I"C:/Users/MSI/Desktop/Work/STM_/Course Udemy/0_test/chip_headers/CMSIS/Device/ST/STM32F4xx/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "1_Debugging_Basic.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\MSI\Desktop\Work\STM_\Course Udemy\1_Debugging_Basic\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="1_Debugging_Basic.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 1_Debugging_Basic.elf
+ 
+arm-none-eabi-size  1_Debugging_Basic.elf 
+arm-none-eabi-objdump -h -S 1_Debugging_Basic.elf  > "1_Debugging_Basic.list"
+   text	   data	    bss	    dec	    hex	filename
+    700	      0	   1568	   2268	    8dc	1_Debugging_Basic.elf
+Finished building: default.size.stdout
+ 
+Finished building: 1_Debugging_Basic.list
+ 
+
+19:55:52 Build Finished. 0 errors, 0 warnings. (took 499ms)
+

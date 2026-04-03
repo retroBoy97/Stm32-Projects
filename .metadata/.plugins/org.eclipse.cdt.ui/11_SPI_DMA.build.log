@@ -1,0 +1,18 @@
+20:09:42 **** Build of configuration Debug for project 11_SPI_DMA ****
+make -j16 all 
+arm-none-eabi-gcc "../Src/SPI_DMA.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F401RE -DSTM32 -DSTM32F401RETx -DSTM32F4 -DSTM32F401xE -c -I../Inc -I"C:/Users/MSI/Desktop/Work/STM_/Course Udemy/0_test/chip_headers/CMSIS/Include" -I"C:/Users/MSI/Desktop/Work/STM_/Course Udemy/0_test/chip_headers/CMSIS/Device/ST/STM32F4xx/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/SPI_DMA.d" -MT"Src/SPI_DMA.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/SPI_DMA.o"
+../Src/SPI_DMA.c: In function 'dma2_stream3_spi_tx_init':
+../Src/SPI_DMA.c:112:21: error: 'DMA_Stream_TypeDef' has no member named 'SCR'; did you mean 'CR'?
+  112 |     DMA2_Stream3 -> SCR = ~DMA_SCR_EN;
+      |                     ^~~
+      |                     CR
+../Src/SPI_DMA.c: In function 'dma2_stream2_spi_rx_init':
+../Src/SPI_DMA.c:149:21: error: 'DMA_Stream_TypeDef' has no member named 'SCR'; did you mean 'CR'?
+  149 |     DMA2_Stream2 -> SCR = ~DMA_SCR_EN;
+      |                     ^~~
+      |                     CR
+make: *** [Src/subdir.mk:40: Src/SPI_DMA.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+
+20:09:43 Build Failed. 3 errors, 0 warnings. (took 349ms)
+

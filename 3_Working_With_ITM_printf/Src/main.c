@@ -15,7 +15,7 @@ int __io_putchar(int ch){
 
 int main(void){
 
-    printf("Asba Maasouuuba \n");
+    printf("Hello \n");
 
     while(1){
     }
